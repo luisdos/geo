@@ -46,9 +46,8 @@ class App extends Component {
                 <p>User Agent: {this.state.userAgent}</p> 
               </div> 
               )
-            : ( <div>this.state.mensaje</div> )
+            : ( <div>{this.state.mensaje}</div> )
           }
-          
         </header>
       </div>
     );
